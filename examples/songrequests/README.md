@@ -24,7 +24,7 @@ curl -H "x-api-key: $REVLO_API_KEY" https://api.revlo.co/1/rewards
 * Deploy [Nightbot](https://beta.nightbot.tv) on your channel.
 * Enable the `!songs` command on Nightbot & restrict it to moderators only.
 * Retrieve your OAuth token. You can generate one with this [Twitch Chat Oauth Generator](http://twitchapps.com/tmi/). Sign in with the account you want posting !song requests in chat.
-* Make a copy of config.sample.ini in the same folder with the filename `config.ini`. Your config.ini file should look something like this:
+* Make a copy of config.sample.yml in the same folder with the filename `config.yml`. Your config.ini file should look something like this:
 ```
 [revlo]
 api_key=$REVLO_API_KEY
